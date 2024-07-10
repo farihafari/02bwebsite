@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header  */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #074173;
+    box-shadow: 2px 4px 5px 2px gray;
+    position: fixed;
+    z-index: 100;  
+}
+.logo{
+    width: 15%;
+    height: inherit;
+    /* background-color: aliceblue; */
+}
+.logo>h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 9px ;
+    color: #1679AB;
+}
+span{
+    font-size: 40px;
+    color: #074173;
+}
+nav{
+    width: 75%;
+    height: inherit;
+
+}
+nav>ul{
+    height: inherit;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav>ul>li{
+    padding: 0px 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #1679AB;
+    font-size: 17px;
+text-shadow: 1px 1px 3px gray;
+}
+main{
+    width: 100%;
+    height: 400px;
+    /* background-color: #074173; */
+    background-image: url(../images/b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 70px;
+
+}
+.overlay{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-text{
+    width: 50%;
+    /* height: 100px; */
+    /* margin: auto; */
+    /* background-color: aqua; */
+    position: absolute;
+    top: 30%;
+    left: 25%;    
+}
+.b-heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 4px #1679AB;
+}
+.b-text{
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    text-transform: capitalize;
+letter-spacing: 3px;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: 3px 3px 4px #1679AB;
+
+}
+#about{
+    width: 89%;
+    height: 300px;
+    /* background-color: #074173; */
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.main-heading{
+    text-align: center;
+text-transform: capitalize;
+font-size: 35px;
+color: #074173;
+text-shadow: 2px 2px 5px #1679AB;
+}
